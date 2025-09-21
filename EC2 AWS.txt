@@ -1,0 +1,127 @@
+1)EC2 ---> Elastic compute cloud 
+
+Ans : It's an Operation system or Vitual Machine in AWS 
+
+2)what is firewall ?
+
+Ans : firewall doing block the ip address & port
+
+3)What is keypair ?
+
+Ans : A key pair is a combination of a public key that is used to encrypt data and a private key that is used to decrypt data
+
+Public Ip ---> will be reachable to any machines 
+
+4) why use systemctl restart httpd ?
+
+Ans : systemctl restart using refresh the  particular services.
+
+5) What is user data ?
+
+Ans : It's provides a scripts before machine has been build.
+
+6) what is instance purchasing options ?
+
+Ans : On demand instance 
+      reserved instance 
+      spot instance 
+      dedicated host 
+
+7) On demand instance ?
+
+Ans : when ever we want we can purchase the instance and when ever does needed we can terminate that is called on demand instance. (price standard 100 rs )
+
+8) Reserved Instance ?
+
+Ans : Reserved Instance if you confidential going to used to instance one year or two years purchase so we are paying cost upfront they will reduce some discount.
+
+9) Spot instance ?
+
+Ans : If it's available in spot they will give you.
+
+       spot instance cost very low 
+       AWS side not recommand 
+       spot instance 12 hours only data available then automatically terminate.
+       spot instance only using testing purpose. 
+10) dedicated host ?
+
+Ans : Dedicate server own application only 
+      dedicate server cost is very high 
+
+
+11) what are the type of instance purchasing option ?
+
+  Ans : * General purpose 
+        * compute optimized 
+        * memory optimized 
+        * Accelerated computing 
+        * storage optimized 
+        * HPC optimized 
+       
+12) if machine running we can change RAM & processor ?
+
+Ans : No, machine is running we can't able change RAM & processor 
+
+13) how to check RAM & processor ?
+
+Ans : free -m 
+      cat /proc/cpuinfo
+
+14) what is AMI ?
+
+Ans : AMI is a master copy of EC2 instance with common softwares installed in it.
+
+15) AMI processor ?
+
+Ans : One Instance install all type of software then that instance convert to image or (AMI) after. then we go to AMI image depoly the machain showing all type of software.
+
+16 ) Advantage of AMI ?
+
+1) Saving timing 
+2) entery template backup using 
+
+17) what is Launch template ?
+
+Ans : IN Lauch template we can pre configure all the required setup like choosing security group, key pair.
+
+18) what is type of storage ?
+
+Ans : Elastic block storage 
+      Elastic file storage 
+      simple storage service 
+      glacier storage 
+
+19) What is Elastic block storage ?
+
+Ans : data storaged block by block 
+      we have use to EBS for critical application
+      EBS use only accross zone data 
+      only for single zone 
+      EBS is cost high 
+20 ) Elastic file Storage ?
+
+ Common storage called by EFS like software, logs, os data,files,filder
+ retrive the data from file name 
+ non critical Application use for EFS 
+ we can't use accross region 
+ we can use same region across zone 
+
+21) Simple storage service ?
+
+Ans : we can use accross region like google drive 
+      simple storage data stored object
+      S3 without internet we can't be use it
+      non critical job store in S3
+22) Glacier ? 
+ 
+Ans : Comparess or zip data maintance the old dara 
+      Audit purpose using archival storage 
+      Archival storage is cost low 
+
+23) what is file system ?
+
+Ans : empty hard disk convert to block that is called filesystem.
+
+24)       
+
+
